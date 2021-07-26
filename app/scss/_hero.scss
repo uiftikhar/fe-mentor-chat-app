@@ -10,7 +10,8 @@
     width: 31.875rem;
     height: 63.625rem;
     border-radius: 15.9375rem;
-    background: $gradient
+    background: $gradient;
+
     @include breakpoint-down(medium) {
       left: -20.125rem;
       top: -31.8125rem;
@@ -24,7 +25,7 @@
   &::after {
     z-index: -1;
     content: '';
-    background: $gradient
+    background: $gradient;
     position: absolute;
     width: 31.875rem;
     height: 63.625rem;
