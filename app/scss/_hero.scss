@@ -1,8 +1,10 @@
 .hero {
   position: relative;
-  height: 100vh;
-  width: 100vw;
   overflow: hidden;
+  @include breakpoint-up(large) {
+    display: flex;
+    align-items: center;
+  }
   &::before {
     z-index: -1;
     content: '';
@@ -10,7 +12,8 @@
     width: 31.875rem;
     height: 63.625rem;
     border-radius: 15.9375rem;
-    background: $gradient
+    background: $gradient;
+
     @include breakpoint-down(medium) {
       left: -20.125rem;
       top: -31.8125rem;
@@ -24,7 +27,7 @@
   &::after {
     z-index: -1;
     content: '';
-    background: $gradient
+    background: $gradient;
     position: absolute;
     width: 31.875rem;
     height: 63.625rem;
@@ -32,13 +35,36 @@
     transform: matrix(1, 0, 0, -1, 0, 0);
     border-radius: 15.9375rem;
     @include breakpoint-down(medium) {
-      left: 11.75rem;
-      top: 26.6875rem;
+      bottom: -31.875rem;
+      right: -20rem;
     }
     
     @include breakpoint-up(large) {
       left: 69.6875rem;
       top: 7.4375rem;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    margin: 0rem 2rem 4rem 2rem;
+    @include breakpoint-up(large) {
+      width: 27.8125rem;
+      margin: 0;
+      text-align: left;
+    }
+    > h1 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      line-height: 2.9375rem;
+      color: $veryDarkDesaturatedViolet;
+      margin-bottom: 1.5rem;
+    }
+    > p {
+      font-size: 1rem;
+      font-weight: normal;
+      line-height: 1.75rem;
+      color: $darkGrayishViolet;
     }
   }
 }
