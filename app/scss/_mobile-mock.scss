@@ -21,7 +21,8 @@
     &-message {
       width: max-content;
       border-radius: 0.625rem 0.625rem 0.625rem 0.25rem;
-      p {
+      h3 {
+        font-weight: lighter;
         font-size: 0.5rem;
         padding: 0.375rem 0.5rem;
         text-align: left;
@@ -37,8 +38,10 @@
         color: $desaturatedDarkViolet;
         border-radius: 0.625rem 0.625rem 0.25rem 0.625rem;
         margin-left: auto;
-        &__images {
+        &-image-wrapper {
           background: none;
+        }
+        &__images {
           width: 2.5rem;
           height: 2.5rem;
           border-radius: 0.625rem;
@@ -70,7 +73,8 @@
         padding: 0.3125rem;
         background-color: $white;
         align-items: center;
-        p {
+        h3 {
+          font-weight: lighter;
           font-size: 0.5625rem;
           padding: 0.3125rem 0rem 0.25rem 0.9375rem;
           color: $darkGrayishViolet;

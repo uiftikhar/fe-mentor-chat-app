@@ -206,7 +206,8 @@ h1, h2, h3, h4, p {
   border-radius: 0.625rem 0.625rem 0.625rem 0.25rem;
 }
 
-.mobile__conversation-wrapper-message p {
+.mobile__conversation-wrapper-message h3 {
+  font-weight: lighter;
   font-size: 0.5rem;
   padding: 0.375rem 0.5rem;
   text-align: left;
@@ -226,8 +227,11 @@ h1, h2, h3, h4, p {
   margin-left: auto;
 }
 
-.mobile__conversation-wrapper-message__from__images {
+.mobile__conversation-wrapper-message__from-image-wrapper {
   background: none;
+}
+
+.mobile__conversation-wrapper-message__from__images {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.625rem;
@@ -270,7 +274,8 @@ h1, h2, h3, h4, p {
           align-items: center;
 }
 
-.mobile__conversation-wrapper-message__type-message p {
+.mobile__conversation-wrapper-message__type-message h3 {
+  font-weight: lighter;
   font-size: 0.5625rem;
   padding: 0.3125rem 0rem 0.25rem 0.9375rem;
   color: #a39daa;
