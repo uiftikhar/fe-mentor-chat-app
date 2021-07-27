@@ -277,7 +277,7 @@ h1, h2, h3, h4, p {
 }
 
 .mobile__conversation-wrapper-message__type-message::after {
-  content: url("/images/arrow-right.svg");
+  content: url("images/arrow-right.svg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
