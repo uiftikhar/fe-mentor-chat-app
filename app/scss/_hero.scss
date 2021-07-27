@@ -1,7 +1,5 @@
 .hero {
   position: relative;
-  height: 100vh;
-  width: 100vw;
   overflow: hidden;
   @include breakpoint-up(large) {
     display: flex;
@@ -37,8 +35,8 @@
     transform: matrix(1, 0, 0, -1, 0, 0);
     border-radius: 15.9375rem;
     @include breakpoint-down(medium) {
-      left: 11.75rem;
-      top: 26.6875rem;
+      bottom: -31.875rem;
+      right: -20rem;
     }
     
     @include breakpoint-up(large) {
