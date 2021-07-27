@@ -19,48 +19,51 @@
 <body>
   <main class="hero">
     <article class="mobile">
-      <section class="mobile__wrapper">
-         <header class="mobile__header flex flex-ai-c">
-          <img src="/images/arrow-left.svg" alt="arrow-left"/>
-          <img src="/images/avatar.jpg" alt="user-image" class="mobile__header-user" />
-          <section class="flex flex-col m-0 p-0">
-            <h1>Samuel Green</h1>
-            <h2>Available to Walk</h2>
-          </section>
-          <img src="/images/dots-btn.svg" alt="menu-button" class="ml-auto"/>
-         </header>
-         <section class="mobile__wrapper-message mobile__wrapper-message__to mb-8">
-           <p>That sounds great. I’d be happy to discuss more.</p>
-         </section>
-         <section class="mobile__wrapper-message mobile__wrapper-message__to mb-16">
-           <p>Could you send over some pictures of your dog, please?</p>
-         </section>
-         <section class="mobile__wrapper-message mobile__wrapper-message__from mobile__wrapper-message__from__images mb-b">
-          <img src="images/dog-image-1.jpg" alt="dog" class="mobile__wrapper-message__from__images-message" />
-          <img src="images/dog-image-2.jpg" alt="dog" class="mobile__wrapper-message__from__images-message" />
-          <img src="images/dog-image-3.jpg" alt="dog" class="mobile__wrapper-message__from__images-message" />
+      <header class="mobile__header flex flex-ai-c">        
+        <img src="/images/arrow-left.svg" alt="arrow-left"/>
+        <img src="/images/avatar.jpg" alt="user-image" class="mobile__header-user" />
+        <section class="flex flex-col m-0 p-0">
+          <h1>Samuel Green</h1>
+          <h2>Available to Walk</h2>
         </section>
-        <section class="mobile__wrapper-message mobile__wrapper-message__from mb-8">
+        <img src="/images/dots-btn.svg" alt="menu-button" class="ml-auto"/>
+      </header>
+      <section class="mobile__conversation-wrapper">
+        <section class="mobile__conversation-wrapper-message mobile__conversation-wrapper-message__to mb-8">
+          <p>That sounds great. I’d be happy to discuss more.</p>
+        </section>
+        <section class="mobile__conversation-wrapper-message mobile__conversation-wrapper-message__to mb-16">
+          <p>Could you send over some pictures of your dog, please?</p>
+        </section>
+        <section class="mobile__conversation-wrapper-message mobile__conversation-wrapper-message__from mb-8">
+          <img src="images/dog-image-1.jpg" alt="dog" class="mobile__conversation-wrapper-message__from mobile__conversation-wrapper-message__from__images"/>
+          <img src="images/dog-image-2.jpg" alt="dog" class="mobile__conversation-wrapper-message__from mobile__conversation-wrapper-message__from__images"/>
+          <img src="images/dog-image-3.jpg" alt="dog" class="mobile__conversation-wrapper-message__from mobile__conversation-wrapper-message__from__images"/>
+        </section>
+        <section class="mobile__conversation-wrapper-message mobile__conversation-wrapper-message__from mb-8">
           <p>Here are a few pictures. She’s a happy girl!</p>
         </section>
-        <section class="mobile__wrapper-message mobile__wrapper-message__from mb-16">
+        <section class="mobile__conversation-wrapper-message mobile__conversation-wrapper-message__from mb-16">
           <p>Can you make it?</p>
         </section>
-        <section class="mobile__wrapper-message mobile__wrapper-message__to mb-8">
+        <section class="mobile__conversation-wrapper-message mobile__conversation-wrapper-message__to mb-8">
           <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
         </section>
-        <section class="mobile__wrapper-message mobile__wrapper-message__option mb-8 flex flex-ai-c">
+        <section class="mobile__conversation-wrapper-message mobile__conversation-wrapper-message__option mb-8 flex flex-ai-c">
           <p>30 minute walk</p>
           <span>$29</span>
         </section>
-        <section class="mobile__wrapper-message mobile__wrapper-message__option mb-16 flex flex-ai-c">
+        <section class="mobile__conversation-wrapper-message mobile__conversation-wrapper-message__option mb-16 flex flex-ai-c">
           <p>1 hour walk</p>
           <span>$49</span>
         </section>
-        <section class="mobile__wrapper-type-message">
+        <section class="mobile__conversation-wrapper-message__type-message">
           <p>Type a message...</p>
         </section>
       </section>
+      <!--
+       <section class="mobile__wrapper">
+      </section> -->
     </article>
     <div class="hero__text"></div>
   </main>
